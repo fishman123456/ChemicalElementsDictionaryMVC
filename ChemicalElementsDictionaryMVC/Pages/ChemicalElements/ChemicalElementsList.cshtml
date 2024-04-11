@@ -1,0 +1,45 @@
+﻿@page
+@using ChemicalElementsDictionaryMVC.Model
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model ChemicalElementsDictionaryMVC.Pages.ChemicalElements.ChemicalElementsListModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chemical Elements List</title>
+</head>
+<body>
+    <h1>Welcome to Chemical Elements List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th> ID </th>
+                <th> FullName </th>
+                <th> Code </th>
+                <th> Mass </th>
+            </tr>
+        </thead>
+    </table>
+    <ol>
+        @foreach (ChemicalElement element in Model.ChemicalElements)
+        {
+            <li> @element </li>
+            <table>
+                <thead>
+                    <tr>
+                        <th> @element.Id </th>
+                        <th> @element.FullName </th>
+                        <th> @element.Code </th>
+                        <th> @element.Mass </th>
+                    </tr>
+                </thead>
+            </table>
+        }
+    </ol>
+</body>
+</html>

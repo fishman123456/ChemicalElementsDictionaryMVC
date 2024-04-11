@@ -1,0 +1,33 @@
+﻿@page
+@addTagHelper*, Microsoft.AspNetCore.Mvc.TagHelpers
+@model ChemicalElementsDictionaryMVC.Pages.ChemicalElements.ChemicalElementsFormModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chemical Elements List</title>
+</head>
+<body>
+    <h1>Add new element</h1>
+    <!--форма добавлениянового элемента-->
+    <form method="post">
+        <!--Наименование-->
+        <label for="full-name">Full Name: </label>
+        <input id="full-name" name="fullName" type ="text" minlenght="1" />
+        <!--код-->
+        <label for="code">Code: </label>
+        <input id="code" name="code" type="number" minlenght="1" />
+        <!--масса-->
+        <label for="mass">mass: </label>
+        <input id="mass" name="mass" type="number" min="0" step="any" />
+
+        <!--кнопка отправки формы-->
+        <button>save</button>
+    </form>
+    <p> <a asp-page="ChemicalElementsList"> go ChemicalElementsList</a></p>
+</body>
+</html>
