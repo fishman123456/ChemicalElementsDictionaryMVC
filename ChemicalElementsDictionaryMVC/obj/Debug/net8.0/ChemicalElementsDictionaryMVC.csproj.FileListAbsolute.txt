@@ -131,3 +131,4 @@ D:\Github\ChemicalElementsDictionaryMVC\ChemicalElementsDictionaryMVC\obj\Debug\
 D:\Github\ChemicalElementsDictionaryMVC\ChemicalElementsDictionaryMVC\obj\Debug\net8.0\ChemicalElementsDictionaryMVC.pdb
 D:\Github\ChemicalElementsDictionaryMVC\ChemicalElementsDictionaryMVC\obj\Debug\net8.0\ChemicalElementsDictionaryMVC.genruntimeconfig.cache
 D:\Github\ChemicalElementsDictionaryMVC\ChemicalElementsDictionaryMVC\obj\Debug\net8.0\ref\ChemicalElementsDictionaryMVC.dll
+D:\Github\ChemicalElementsDictionaryMVC\ChemicalElementsDictionaryMVC\obj\Debug\net8.0\ChemicalElementsDictionaryMVC.sourcelink.json

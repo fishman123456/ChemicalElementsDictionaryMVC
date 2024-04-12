@@ -12,34 +12,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chemical Elements List</title>
+    <style>
+        .element-table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .element-table th, .element-table td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome to Chemical Elements List</h1>
-    <table>
+    <p><a asp-page="ChemicalElementsForm">Add new chemical element</a></p>
+    <table class="element-table">
         <thead>
             <tr>
-                <th> ID </th>
-                <th> FullName </th>
-                <th> Code </th>
-                <th> Mass </th>
+                <th>ID</th>
+                <th>Full Name</th>
+                <th>Code</th>
+                <th>Mass</th>
             </tr>
         </thead>
+        <tbody>
+            @foreach (ChemicalElement element in Model.ChemicalElements)
+            {
+                <tr>
+                    <td>@element.Id</td>
+                    <td>@element.FullName</td>
+                    <td>@element.Code</td>
+                    <td>@element.Mass</td>
+                </tr>
+            }
+        </tbody>
     </table>
-    <ol>
-        @foreach (ChemicalElement element in Model.ChemicalElements)
-        {
-            <li> @element </li>
-            <table>
-                <thead>
-                    <tr>
-                        <th> @element.Id </th>
-                        <th> @element.FullName </th>
-                        <th> @element.Code </th>
-                        <th> @element.Mass </th>
-                    </tr>
-                </thead>
-            </table>
-        }
-    </ol>
 </body>
 </html>
