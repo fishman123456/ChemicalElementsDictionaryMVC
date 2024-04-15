@@ -34,6 +34,7 @@
                 <th>Full Name</th>
                 <th>Code</th>
                 <th>Mass</th>
+                <th>Actions</th>
             </tr>
         </thead>
         <tbody>
@@ -44,6 +45,10 @@
                     <td>@element.FullName</td>
                     <td>@element.Code</td>
                     <td>@element.Mass</td>
+                    <td>
+                        <a asp-page="ChemicalElementDelete" asp-route-id="@element.Id">Delete</a>
+                        <a asp-page="ChemicalElementEditForm" asp-route-id="@element.Id">Edit</a>
+                    </td>
                 </tr>
             }
         </tbody>

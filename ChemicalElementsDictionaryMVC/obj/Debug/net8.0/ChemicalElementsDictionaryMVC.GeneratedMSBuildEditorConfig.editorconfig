@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Github\ChemicalElementsDictionaryMVC\ChemicalElementsDictionaryMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Github/ChemicalElementsDictionaryMVC/ChemicalElementsDictionaryMVC/Pages/ChemicalElements/ChemicalElementDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlbWljYWxFbGVtZW50c1xDaGVtaWNhbEVsZW1lbnREZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Github/ChemicalElementsDictionaryMVC/ChemicalElementsDictionaryMVC/Pages/ChemicalElements/ChemicalElementEditForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlbWljYWxFbGVtZW50c1xDaGVtaWNhbEVsZW1lbnRFZGl0Rm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Github/ChemicalElementsDictionaryMVC/ChemicalElementsDictionaryMVC/Pages/ChemicalElements/ChemicalElementsForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlbWljYWxFbGVtZW50c1xDaGVtaWNhbEVsZW1lbnRzRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

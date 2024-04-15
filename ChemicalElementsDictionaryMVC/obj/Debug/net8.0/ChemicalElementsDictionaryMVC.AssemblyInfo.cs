@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChemicalElementsDictionaryMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8ec0839902aeb8c5f7ef36aaf0f5777b6535632")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf46378d498b3e555d21910b8bf31c4879d01aea")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChemicalElementsDictionaryMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChemicalElementsDictionaryMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
